@@ -1,0 +1,6 @@
+{
+  "name": "PlayID IPTV Xtream Player",
+  "description": "ระบบ IPTV Xtream Codes สำหรับรับชมช่องทีวีสด ภาพยนตร์ VOD ซีรีส์ และตารางถ่ายทอดสดกีฬา",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
