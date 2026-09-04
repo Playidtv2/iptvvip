@@ -160,6 +160,23 @@ export interface WatchHistoryItem {
   timestamp: number;
 }
 
+export interface FavoriteItem {
+  id: string | number;
+  name: string;
+  cover?: string;
+  stream_icon?: string;
+  kind: 'live' | 'vod' | 'series';
+  category_id?: string;
+  category_name?: string;
+  rating?: string | number;
+  year?: string;
+  genre?: string;
+  container_extension?: string;
+  stream_type?: string;
+  addedAt: number;
+  rawItem?: any;
+}
+
 export interface AuthSession {
   serverUrl: string;
   anyname?: string;
